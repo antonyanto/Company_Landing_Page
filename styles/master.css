@@ -1,0 +1,36 @@
+@media screen and (max-width: 576px) {
+  #Home h2, #Technologies h2 {
+    padding-left: 2vh;
+  }
+
+  #Home p {
+    padding-left: 2vh;
+  }
+}
+
+#Home, #Technologies, #Pricing {
+  background-image: linear-gradient(to right, #000428, #004e92);
+  color: white;
+  padding: 8vh 0px;
+  margin-bottom: -1px;
+}
+
+#Home img {
+  max-width: 50vw;
+  height: auto;
+}
+
+#Welcome-div {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Custom-tech-list div {
+  float: left;
+  margin: 3vh 5vw;
+}
+
+#Technologies img {
+  max-width: 40vw;
+  height: auto;
+}
