@@ -12,7 +12,7 @@
   }
 }
 
-#Home, #Technologies, #Pricing {
+#Home, #Technologies, #Pricing, #Contact-Us {
   background-image: linear-gradient(to right, #000428, #004e92);
   color: white;
   padding: 8vh 0px;
@@ -37,4 +37,15 @@
 #Technologies img {
   max-width: 40vw;
   height: auto;
+}
+
+.Custom-contact-us {
+  border: 5px solid rgb(0, 217, 255);
+  border-radius: 10px;
+  padding: 3vh 3vw;
+}
+
+.Custom-form-width {
+  margin: 1px auto;
+  width: 80%;
 }
