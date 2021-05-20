@@ -12,11 +12,24 @@
   }
 }
 
-#Home, #Technologies, #Pricing, #Contact-Us {
+html {
+  scroll-behavior: smooth;
+}
+
+h2, h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+#custom-navbar {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#Home, #Technologies, #Pricing, #Contact-Us, #Footer {
   background-image: linear-gradient(to right, #000428, #004e92);
   color: white;
   padding: 8vh 0px;
   margin-bottom: -1px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #Home img {
@@ -48,4 +61,11 @@
 .Custom-form-width {
   margin: 1px auto;
   width: 80%;
+}
+
+#Footer-icons {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin: 0px 40px;
 }
