@@ -6,6 +6,10 @@
   #Home p {
     padding-left: 2vh;
   }
+  #Pricing .card-deck {
+    width: 90vw;
+    margin: 0px auto;
+  }
 }
 
 #Home, #Technologies, #Pricing {
@@ -27,7 +31,7 @@
 
 .Custom-tech-list div {
   float: left;
-  margin: 3vh 5vw;
+  margin: 3vh 4vw;
 }
 
 #Technologies img {
