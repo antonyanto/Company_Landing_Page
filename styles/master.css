@@ -12,6 +12,18 @@
   }
 }
 
+@media screen and (min-width: 576px) {
+  .card {
+    margin: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    margin: 0rem;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -24,6 +36,10 @@ h2, h5 {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+#Home {
+  margin-top: 4.2rem;
+}
+
 #Home, #Technologies, #Pricing, #Contact-Us, #Footer {
   background-image: linear-gradient(to right, #000428, #004e92);
   color: white;
@@ -33,7 +49,7 @@ h2, h5 {
 }
 
 #Home img {
-  max-width: 50vw;
+  max-width: 55vw;
   height: auto;
 }
 
@@ -64,8 +80,7 @@ h2, h5 {
 }
 
 #Footer-icons {
-  width: 250px;
-  height: 250px;
+  font-size: 1.5rem;
   margin: 0px 40px;
 }
 
